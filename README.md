@@ -81,4 +81,4 @@ $ npm start
 
 ## :robot: API and Endpoints
 
-> You can use the following postman collection to make using the API easier [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/c91d598c6cccf365c9be)
+> You can use the following postman collection to make using the API easier [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/c91d598c6cccf365c9be)
