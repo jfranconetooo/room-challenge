@@ -12,7 +12,9 @@ This project was developed as a prerequisite in the selection process.
 
 - You can use Docker Compose to run the entire stack required for the application, if you are a docker user :whale:
 More details below in the running section.
-- You can also run the application directly on your computer. Just have NodeJS 12+ installed and Mongodb 4+.
+- You can also run the application directly on your computer. Just have NodeJS 12+.
+
+- Mongo is run in memory if run directly on your computer.
 
 ## :fire: Getting Started
 
@@ -65,8 +67,6 @@ $ git clone git@github.com:jfranconetooo/room-challenge.git
  ```sh
 $ cd room-challenge
 ```
-
- >:warning: change the mongodb access information using the environment variables available in `/configs` :file_folder:
 
 - Install all packages using NPM:
 ```sh
