@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  service-api:
+    container_name: room-challenge
+    build: .
+    ports:
+      - 3000:3000
+    environment:
+      MONGO_URI: mongodb://mongo:27017/room-challenge
+    links:
+      - mongo
+    networks:
+      - mongo-compose-network
+
+  mongo:
+    image: mongo
+    container_name: mongo-container
+    ports:
+      - "27017:27017"
+    volumes:
+       - ./db:/data/db
+    networks:
+      - mongo-compose-network
+
+networks: 
+    mongo-compose-network:
+      driver: bridge
