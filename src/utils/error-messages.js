@@ -40,6 +40,19 @@ export default {
         "code": 5,
         "message": "Invalid username"
       }
+  },
+  "ERROR:CANT_CHANGE_HOST": {
+    "status": 400,
+    "body": {
+      "code": 6,
+      "message": "There is not user to change the host."
+    }
+  },
+  "ERROR:ROOM_REACHED_LIMIT": {
+    "status": 400,
+    "body": {
+      "code": 7,
+      "message": "Room limit reached."
+    }
   }
-  
 }
